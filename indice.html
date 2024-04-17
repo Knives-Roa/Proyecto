@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LISTA DE TAREAS</title>
+    <script src="https://kit.fontawesome.com/648b532f03.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="vista.css">
+</head>
+<body>
+    <div class="contenedor">
+        <div class="perfil">
+            <div id="fecha"></div>
+            <h1>Bienvenido usuario <i class="fa-regular fa-circle-user"></i></h1>
+            <span>Agregar listas para tus tareas</span>
+        </div>
+    
+       <!--Se le da un atributo de clase para posteriormente darle forma en CSS--> 
+        <div class="agregar-tarea">
+            <input type="text" id="input" placeholder="agregar una tarea">
+            <!--Se le declara id para darle instrucciones en el js-->
+            <i id="boton-agregar" class="fa-solid fa-plus"></i>
+        </div>
+    
+        
+        <div class="seccion-tarea">
+            <h3>Tareas Pendientes </h3>
+            <ul id="lista">
+                
+            </ul>
+    
+        </div>   
+    </div>
+    <script src="code.js"></script>
+</body>
+</html>
